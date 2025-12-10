@@ -59,5 +59,6 @@ public class Main
         var mass4 = 82.7;
         var remains = mass4 % mass3;
         System.out.println("Остаток от деления между весами: " + remains);
+
     }
 }
