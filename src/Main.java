@@ -72,6 +72,5 @@ public class Main
         human = human + 94;
         allTimes = human * times;
         System.out.println("Если в компании работает " + human + " человек, то всего " + allTimes + " часов работы может быть поделено между сотрудниками ");
-
     }
 }
