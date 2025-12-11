@@ -1,5 +1,3 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main
 {
     public static void main(String[] args)
@@ -13,19 +11,19 @@ public class Main
         System.out.println( );
 
         System.out.println("Задача №2");
-        final var CONST = 4.0;
-        var dog1 = 8.0 + CONST;
-        var cat1 = 3.6 + CONST;
-        var paper1 = 763789 + CONST;
-        System.out.println(dog1 + "\n" + cat1 + "\n" + paper1);
+
+        dog = dog + 4;
+        cat = cat + 4;
+        paper = paper + 4;
+        System.out.println(dog + "\n" + cat + "\n" + paper);
 
         System.out.println( );
 
         System.out.println("Задача №3");
-        var dog2 = 8.0 - 3.5;
-        var cat2 = 3.6 - 1.6;
-        var paper2 = 763789 - 7639;
-        System.out.println(dog2 + "\n" + cat2 + "\n" + paper2);
+        dog = dog - 3.5;
+        cat = cat - 1.6;
+        paper = paper - 7639;
+        System.out.println(dog + "\n" + cat + "\n" + paper);
 
         System.out.println( );
 
@@ -55,10 +53,19 @@ public class Main
         System.out.println( );
 
         System.out.println("Задача №7");
-        var mass3 = 78.2;
-        var mass4 = 82.7;
-        var remains = mass4 % mass3;
+        var remains = mass2 % mass1;
         System.out.println("Остаток от деления между весами: " + remains);
+
+        System.out.println( );
+
+        System.out.println("Задача №8");
+        var allTimes = 640;
+        var times = 8;
+        var human = allTimes / times;
+        System.out.println("Всего работников в компании - " + human + " человек ");
+        human = human + 94;
+        allTimes = human * times;
+        System.out.println("Если в компании работает " + human + " человек, то всего " + allTimes + " часов работы может быть поделено между сотрудниками ");
 
     }
 }
